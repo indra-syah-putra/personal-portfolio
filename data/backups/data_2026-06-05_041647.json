@@ -1,0 +1,292 @@
+{
+    "site_settings": {
+        "hero_title": "Mahasiswa SI & Tech Enthusiast",
+        "hero_desc": "Selamat datang di blog pribadiku. Di sini saya berbagi tentang project, tutorial pemrograman, pengalaman upgrade laptop, dan catatan perjalanan belajarku di dunia IT.",
+        "hero_img": "https://picsum.photos/seed/indratech/400/400",
+        "about_bio": "Halo! Saya Indra Syah Putra, mahasiswa Sistem Informasi di Bina Sarana Informatika (BSI) Kaliabang. Saya adalah tipikal orang yang menyukai hal-hal baru, terutama di bidang komputer dan teknologi. Saya suka ngoprek laptop, belajar programming, dan berbagi ilmu melalui tulisan-tulisan di blog ini.\n\nSaat ini saya aktif mengembangkan skill di bidang web development (Laravel, React JS, PHP Native) serta terus mengeksplorasi dunia hardware dan jaringan. Saya percaya bahwa teknologi bisa menjadi solusi untuk banyak masalah, dan saya ingin menjadi bagian dari solusi itu.",
+        "skills": [
+            "Laravel",
+            "PHP",
+            "HTML/CSS",
+            "JavaScript",
+            "React JS",
+            "MySQL",
+            "Git",
+            "Hardware",
+            "Jaringan",
+            "Linux"
+        ],
+        "contact_title": "Hubungi Saya",
+        "contact_desc": "Punya pertanyaan seputar tutorial, mau tanya tips laptop, atau sekadar ingin menyapa? Jangan ragu untuk menghubungi saya. Saya akan berusaha merespon dalam 1-2 hari kerja.",
+        "contact_email": "indra.syahputra@email.com",
+        "contact_insta": "@indra.syahputra_",
+        "contact_github": "@indrasyahputra",
+        "projek_desc": "Kumpulan project dan karya yang pernah saya kerjakan, mulai dari pengembangan web, jaringan, hingga IoT. Setiap project punya cerita dan tantangannya masing-masing.",
+        "categories": [
+            "Komputer",
+            "Programming",
+            "Jaringan",
+            "Tutorial",
+            "Review"
+        ],
+        "cv_link": "https://drive.google.com/file/d/example-cv-link",
+        "faq": [
+            {
+                "q": "Berapa lama waktu respon?",
+                "a": "Biasanya dalam 1-2 hari kerja. Saya akan membalas ke email yang kamu cantumkan."
+            },
+            {
+                "q": "Apakah saya bisa request topik tutorial?",
+                "a": "Tentu! Tulis saja topik yang kamu ingin bahas di form pesan, dan saya akan pertimbangkan untuk artikel selanjutnya."
+            },
+            {
+                "q": "Bisakah saya berkolaborasi dalam projek?",
+                "a": "Pastinya! Saya terbuka untuk kolaborasi. Mention aja projek yang kamu minati di pesan."
+            },
+            {
+                "q": "Apa spesifikasi laptop yang kamu pakai?",
+                "a": "Saya pakai Lenovo ThinkPad L430 dengan RAM 16GB dan SSD 256GB. Laptop lawas yang sudah diupgrade."
+            }
+        ],
+        "timeline": [
+            {
+                "type": "education",
+                "title": "Sistem Informasi",
+                "organization": "Bina Sarana Informatika (BSI) Kaliabang",
+                "year": "2023 - Sekarang",
+                "desc": "Kuliah S1 Sistem Informasi sambil aktif ngoprek dan belajar web development."
+            },
+            {
+                "type": "education",
+                "title": "SMA / Sederajat",
+                "organization": "SMA Negeri 1 Bekasi",
+                "year": "2020 - 2023",
+                "desc": "Mulai tertarik dengan dunia teknologi dan programming."
+            },
+            {
+                "type": "experience",
+                "title": "Tech Enthusiast & Content Creator",
+                "organization": "Freelance / Pribadi",
+                "year": "2023 - Sekarang",
+                "desc": "Membagikan pengalaman upgrade laptop, tutorial programming, dan review teknologi melalui blog."
+            },
+            {
+                "type": "experience",
+                "title": "Freelance Web Developer",
+                "organization": "Freelance",
+                "year": "2024 - Sekarang",
+                "desc": "Mengerjakan project website menggunakan Laravel, React JS, dan PHP Native untuk klien kecil-menengah."
+            }
+        ],
+        "project_categories": [
+            "React Js",
+            "PHP Native",
+            "Laravel",
+            "Jaringan",
+            "IoT"
+        ],
+        "gallery": [
+            {
+                "image": "https://picsum.photos/seed/cert1/400/400",
+                "year": "2025"
+            },
+            {
+                "image": "https://picsum.photos/seed/cert2/400/400",
+                "year": "2025"
+            },
+            {
+                "image": "https://picsum.photos/seed/cert3/400/400",
+                "year": "2024"
+            },
+            {
+                "image": "https://picsum.photos/seed/event1/400/400",
+                "year": "2024"
+            },
+            {
+                "image": "https://picsum.photos/seed/event2/400/400",
+                "year": "2023"
+            },
+            {
+                "image": "https://picsum.photos/seed/activity1/400/400",
+                "year": "2023"
+            }
+        ],
+        "tech_skills": [
+            "Laravel",
+            "React JS",
+            "PHP Native",
+            "JavaScript",
+            "MySQL",
+            "Git",
+            "Bootstrap"
+        ]
+    },
+    "projects": [
+        {
+            "id": "proj-001",
+            "title": "Sistem Informasi Perpustakaan",
+            "desc": "Aplikasi manajemen perpustakaan berbasis web dengan fitur CRUD buku, anggota, peminjaman, dan pengembalian. Dibangun menggunakan Laravel 11 dengan MySQL sebagai database.",
+            "img": "https://picsum.photos/seed/library/600/400",
+            "tech": "Laravel, MySQL, Bootstrap",
+            "category": "Laravel",
+            "published": "1",
+            "link": "https://github.com/indrasyahputra/si-perpustakaan",
+            "status": "Completed",
+            "date": "2026-05-15"
+        },
+        {
+            "id": "proj-002",
+            "title": "Aplikasi Todo List React",
+            "desc": "Single page application untuk manajemen tugas sehari-hari. Dibangun dengan React JS dan menggunakan localStorage untuk penyimpanan data.",
+            "img": "https://picsum.photos/seed/todo/600/400",
+            "tech": "React JS, JavaScript, CSS",
+            "category": "React Js",
+            "published": "1",
+            "link": "https://github.com/indrasyahputra/react-todo",
+            "status": "Completed",
+            "date": "2026-04-20"
+        },
+        {
+            "id": "proj-003",
+            "title": "Website E-Commerce Sederhana",
+            "desc": "Toko online sederhana dengan fitur katalog produk, keranjang belanja, dan checkout. Menggunakan PHP Native dan MySQL.",
+            "img": "https://picsum.photos/seed/ecommerce/600/400",
+            "tech": "PHP Native, MySQL, Bootstrap",
+            "category": "PHP Native",
+            "published": "1",
+            "link": "",
+            "status": "In Progress",
+            "date": "2026-06-01"
+        },
+        {
+            "id": "proj-004",
+            "title": "Monitoring Jaringan dengan Mikrotik",
+            "desc": "Sistem monitoring jaringan menggunakan Mikrotik API untuk memantau bandwidth, koneksi client, dan status perangkat jaringan secara real-time.",
+            "img": "https://picsum.photos/seed/network/600/400",
+            "tech": "PHP Native, Mikrotik API, Bootstrap",
+            "category": "Jaringan",
+            "published": "1",
+            "link": "",
+            "status": "Planning",
+            "date": "2026-06-05"
+        },
+        {
+            "id": "proj-005",
+            "title": "Sistem Informasi Akademik Sekolah",
+            "desc": "Platform manajemen data akademik untuk sekolah. Fitur meliputi manajemen siswa, guru, kelas, jadwal, dan nilai rapor.",
+            "img": "https://picsum.photos/seed/academic/600/400",
+            "tech": "Laravel, React JS, MySQL",
+            "category": "Laravel",
+            "published": "1",
+            "link": "https://github.com/indrasyahputra/siakad-sekolah",
+            "status": "In Progress",
+            "date": "2026-05-28"
+        },
+        {
+            "id": "proj-006",
+            "title": "Dashboard IoT Monitoring Suhu",
+            "desc": "Dashboard monitoring suhu dan kelembaban ruangan menggunakan sensor DHT22, Arduino, dan ditampilkan secara real-time dengan Chart.js.",
+            "img": "https://picsum.photos/seed/iot/600/400",
+            "tech": "React JS, Node.js, Chart.js",
+            "category": "IoT",
+            "published": "1",
+            "link": "",
+            "status": "Planning",
+            "date": "2026-06-03"
+        },
+        {
+            "id": "proj-007",
+            "title": "Portfolio Website with React",
+            "desc": "Website portfolio interaktif dibangun dengan React JS dan Framer Motion untuk animasi. Desain modern dengan dark mode support.",
+            "img": "https://picsum.photos/seed/portfolio/600/400",
+            "tech": "React JS, Framer Motion, CSS",
+            "category": "React Js",
+            "published": "1",
+            "link": "https://github.com/indrasyahputra/react-portfolio",
+            "status": "Completed",
+            "date": "2026-03-10"
+        }
+    ],
+    "articles": [
+        {
+            "id": "art-001",
+            "title": "Cara Deploy Laravel di Hosting FastPanel",
+            "content": "<p>Setelah beberapa kali gagal, akhirnya saya berhasil melakukan deploy project Laravel ke hosting yang menggunakan FastPanel. Di artikel ini saya akan sharing langkah-langkahnya secara detail.</p><h3>Persiapan</h3><p>Sebelum memulai, pastikan kamu sudah memiliki:</p><ul><li>Project Laravel yang siap di-deploy</li><li>Akses ke cPanel / FastPanel hosting</li><li>Domain atau subdomain yang sudah di-pointing</li></ul><h3>Langkah 1: Compress Project</h3><p>Pertama, compress semua file project Laravel ke dalam format .zip. Jangan lupa untuk menghapus folder vendor dan node_modules agar ukurannya lebih kecil.</p><h3>Langkah 2: Upload via File Manager</h3><p>Login ke FastPanel, buka File Manager, lalu upload file .zip ke folder public_html. Ekstrak file tersebut.</p><h3>Langkah 3: Setting Environment</h3><p>Copy file .env.example menjadi .env, lalu sesuaikan konfigurasi database dan APP_URL. Jangan lupa generate APP_KEY dengan perintah <code>php artisan key:generate</code>.</p><h3>Langkah 4: Migrasi Database</h3><p>Via terminal FastPanel, jalankan <code>php artisan migrate --force</code> untuk membuat tabel-tabel di database.</p><p>Setelah semua langkah selesai, website Laravel kamu sudah bisa diakses secara online. Selamat mencoba!</p>",
+            "img": "https://picsum.photos/seed/deploy/700/400",
+            "date": "2026-05-20",
+            "category": "Tutorial",
+            "published": "1",
+            "views": 47
+        },
+        {
+            "id": "art-002",
+            "title": "Review Lenovo ThinkPad L430 Setelah Upgrade",
+            "content": "<p>Lenovo ThinkPad L430 adalah laptop lawas yang masih bisa diandalkan setelah diupgrade. Berikut pengalaman saya menggunakan laptop ini sehari-hari.</p><h3>Spesifikasi Awal</h3><p>Laptop ini datang dengan processor Intel Core i5-3210M, RAM 4GB, dan HDD 320GB. Cukup standar untuk laptop tahun 2012-an.</p><h3>Upgrade yang Dilakukan</h3><ul><li><strong>RAM:</strong> Upgrade dari 4GB ke 16GB DDR3</li><li><strong>Storage:</strong> Ganti HDD dengan SSD SATA 256GB</li><li><strong>Battery:</strong> Ganti baterai baru</li></ul><h3>Hasil Setelah Upgrade</h3><p>Performa meningkat drastis! Boot time turun dari 45 detik menjadi 10 detik. Aplikasi seperti browser, VS Code, dan XAMPP bisa berjalan dengan lancar tanpa lag. Bahkan untuk coding Laravel ringan masih sangat mumpuni.</p><p>Total biaya upgrade sekitar Rp 500.000 untuk RAM dan SSD bekas. Sangat worth it untuk laptop sekuat ini!</p>",
+            "img": "https://picsum.photos/seed/laptop/700/400",
+            "date": "2026-05-10",
+            "category": "Review",
+            "published": "1",
+            "views": 32
+        },
+        {
+            "id": "art-003",
+            "title": "Panduan Dasar HTML untuk Pemula",
+            "content": "<p>HTML adalah fondasi dari setiap website. Di artikel ini, kita akan belajar dasar-dasar HTML yang wajib diketahui oleh setiap calon web developer.</p><h3>Apa itu HTML?</h3><p>HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk membuat struktur halaman web. Setiap elemen di halaman web didefinisikan dengan tag HTML.</p><h3>Struktur Dasar HTML</h3><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n    &lt;title&gt;Judul Halaman&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;Hello World!&lt;/h1&gt;\n    &lt;p&gt;Ini paragraf pertama.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><h3>Tag-Tag Penting</h3><ul><li><code>&lt;h1&gt; - &lt;h6&gt;</code> — Heading atau judul</li><li><code>&lt;p&gt;</code> — Paragraf</li><li><code>&lt;a&gt;</code> — Link</li><li><code>&lt;img&gt;</code> — Gambar</li><li><code>&lt;ul&gt; / &lt;ol&gt;</code> — List</li><li><code>&lt;table&gt;</code> — Tabel</li></ul><p>Setelah menguasai HTML, langkah selanjutnya adalah belajar CSS untuk styling dan JavaScript untuk interaktivitas.</p>",
+            "img": "https://picsum.photos/seed/html/700/400",
+            "date": "2026-04-25",
+            "category": "Programming",
+            "published": "1",
+            "views": 28
+        },
+        {
+            "id": "art-004",
+            "title": "Konfigurasi Dasar Jaringan Mikrotik untuk Pemula",
+            "content": "<p>Mikrotik adalah salah satu router OS yang populer digunakan di Indonesia. Berikut panduan konfigurasi dasar Mikrotik untuk pemula.</p><h3>Akses Mikrotik</h3><p>Untuk mengakses Mikrotik, kamu bisa menggunakan WinBox atau langsung via browser di alamat IP default router (biasanya 192.168.88.1).</p><h3>Konfigurasi Dasar</h3><ol><li><strong>Set IP Address:</strong> Buka menu IP &gt; Address &gt; Tambah alamat IP untuk interface LAN</li><li><strong>DHCP Server:</strong> IP &gt; DHCP Server &gt; Setup, pilih interface LAN</li><li><strong>NAT / Masquerade:</strong> IP &gt; Firewall &gt; NAT &gt; Tambah rule untuk srcnat</li><li><strong>DNS:</strong> IP &gt; DNS &gt; Setting, centang Allow Remote Requests</li></ol><h3>Tips Keamanan</h3><p>Jangan lupa untuk mengganti password default, menonaktifkan service yang tidak diperlukan, dan melakukan backup konfigurasi secara berkala.</p>",
+            "img": "https://picsum.photos/seed/mikrotik/700/400",
+            "date": "2026-04-15",
+            "category": "Jaringan",
+            "published": "1",
+            "views": 21
+        },
+        {
+            "id": "art-005",
+            "title": "Cara Install Laravel 11 di Windows",
+            "content": "<p>Laravel 11 adalah versi terbaru dari framework PHP favorit saya. Berikut cara installasi lengkap di Windows.</p><h3>Persyaratan</h3><ul><li>PHP 8.2 atau lebih baru</li><li>Composer</li><li>Database (MySQL / PostgreSQL / SQLite)</li></ul><h3>Langkah Installasi</h3><p>Buka terminal dan jalankan perintah berikut:</p><pre><code>composer create-project laravel/laravel:^11.0 nama-project\ncd nama-project\nphp artisan serve</code></pre><p>Buka http://localhost:8000 di browser, dan Laravel kamu sudah siap digunakan!</p><h3>Struktur Folder Laravel</h3><p>Pahami struktur folder Laravel: app, routes, resources, dan database adalah folder utama yang sering kamu gunakan saat develop aplikasi.</p>",
+            "img": "https://picsum.photos/seed/laravel/700/400",
+            "date": "2026-03-30",
+            "category": "Tutorial",
+            "published": "1",
+            "views": 55
+        },
+        {
+            "id": "art-006",
+            "title": "Tips Memilih Laptop untuk Programming",
+            "content": "<p>Banyak teman-teman yang bertanya, 'Laptop apa yang bagus untuk programming?' Mari saya bahas berdasarkan pengalaman pribadi.</p><h3>Spek Minimal yang Disarankan</h3><ul><li><strong>Processor:</strong> Intel Core i5 (generasi ke-8 ke atas) atau AMD Ryzen 5</li><li><strong>RAM:</strong> Minimal 8GB, 16GB ideal</li><li><strong>Storage:</strong> SSD minimal 256GB, jangan pakai HDD</li><li><strong>Display:</strong> Resolusi Full HD, ukuran 14-15.6 inch</li></ul><h3>Rekomendasi Budget</h3><p>Untuk budget di bawah 5 juta, cari ThinkPad bekas (X230, T440, L430) lalu upgrade RAM dan SSD. Ini yang saya lakukan dan hasilnya sangat memuaskan untuk coding web.</p><p>Untuk budget 8-12 juta, bisa cari laptop baru seperti Acer Aspire 5, Lenovo IdeaPad Slim, atau HP Pavilion series.</p><p>Yang terpenting, sesuaikan dengan kebutuhan. Untuk web development, tidak perlu laptop gaming mahal. Yang penting RAM cukup dan pakai SSD!</p>",
+            "img": "https://picsum.photos/seed/laptop-choice/700/400",
+            "date": "2026-03-15",
+            "category": "Komputer",
+            "published": "1",
+            "views": 38
+        },
+        {
+            "id": "art-007",
+            "title": "Belajar Git untuk Pemula",
+            "content": "<p>Git adalah version control system yang wajib dikuasai oleh setiap developer. Yuk kita belajar dasar-dasarnya.</p><h3>Apa itu Git?</h3><p>Git adalah tools yang digunakan untuk melacak perubahan pada file project. Dengan Git, kamu bisa bekerja sama dengan tim tanpa khawatir konflik file.</p><h3>Perintah Dasar Git</h3><pre><code>git init\nmemulai repository baru\n\ngit add .\nmenambahkan semua perubahan ke staging\n\ngit commit -m \"pesan commit\"\nmenyimpan perubahan\n\ngit push\nmengirim perubahan ke repository remote (GitHub)\n\ngit pull\nmengambil perubahan terbaru dari repository remote</code></pre><h3>Workflow Dasar</h3><ol><li>Buat repository di GitHub</li><li>Clone ke lokal: <code>git clone url-repo</code></li><li>Buat branch baru: <code>git checkout -b fitur-baru</code></li><li>Setelah selesai, commit dan push</li><li>Buat Pull Request di GitHub</li></ol><p>Setelah paham dasar ini, kamu bisa belajar branching strategy seperti Git Flow untuk project yang lebih kompleks.</p>",
+            "img": "https://picsum.photos/seed/git/700/400",
+            "date": "2026-02-28",
+            "category": "Programming",
+            "published": "1",
+            "views": 19
+        },
+        {
+            "id": "art-008",
+            "title": "Cara Koneksi PHP dengan MySQL",
+            "content": "<p>PHP dan MySQL adalah kombinasi klasik untuk membuat website dinamis. Berikut cara menghubungkan PHP dengan database MySQL.</p><h3>Menggunakan MySQLi</h3><pre><code>&lt;?php\n$host = \"localhost\";\n$user = \"root\";\n$pass = \"\";\n$db = \"nama_database\";\n\n$conn = mysqli_connect($host, $user, $pass, $db);\n\nif (!$conn) {\n    die(\"Koneksi gagal: \" . mysqli_connect_error());\n}\necho \"Koneksi berhasil\";\n?&gt;</code></pre><h3>Menggunakan PDO (Recommended)</h3><p>PDO lebih aman karena mendukung prepared statement untuk mencegah SQL injection.</p><pre><code>&lt;?php\ntry {\n    $pdo = new PDO(\"mysql:host=localhost;dbname=nama_database\", \"root\", \"\");\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n    echo \"Koneksi berhasil\";\n} catch(PDOException $e) {\n    echo \"Koneksi gagal: \" . $e->getMessage();\n}\n?&gt;</code></pre><p>Saya pribadi lebih suka menggunakan PDO karena lebih fleksibel dan aman. Apalagi kalau nanti pindah ke database lain (PostgreSQL, SQLite), tinggal ganti driver saja.</p>",
+            "img": "https://picsum.photos/seed/php-mysql/700/400",
+            "date": "2026-02-10",
+            "category": "Programming",
+            "published": "1",
+            "views": 25
+        }
+    ]
+}

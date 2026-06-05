@@ -1,0 +1,30 @@
+<?php
+require_once 'includes/functions.php';
+
+$data = baca_json();
+if ($data === false) { $data = ['site_settings' => [], 'projects' => [], 'articles' => []]; }
+$projects = $data['projects'] ?? [];
+$articles = $data['articles'] ?? [];
+
+$base = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
+$script_dir = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
+$base .= $script_dir;
+
+$today = date('Y-m-d');
+
+header('Content-Type: application/xml; charset=utf-8');
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url><loc><?= htmlspecialchars($base) ?>/index.php</loc><lastmod><?= $today ?></lastmod><priority>1.0</priority></url>
+    <url><loc><?= htmlspecialchars($base) ?>/projek.php</loc><lastmod><?= $today ?></lastmod><priority>0.8</priority></url>
+    <url><loc><?= htmlspecialchars($base) ?>/artikel.php</loc><lastmod><?= $today ?></lastmod><priority>0.8</priority></url>
+    <url><loc><?= htmlspecialchars($base) ?>/kontak.php</loc><lastmod><?= $today ?></lastmod><priority>0.7</priority></url>
+    <url><loc><?= htmlspecialchars($base) ?>/tentang.php</loc><lastmod><?= $today ?></lastmod><priority>0.7</priority></url>
+    <?php foreach ($articles as $art): ?>
+    <url><loc><?= htmlspecialchars($base) ?>/detail_artikel.php?id=<?= htmlspecialchars($art['id']) ?></loc><lastmod><?= htmlspecialchars($art['date'] ?? $today) ?></lastmod><priority>0.6</priority></url>
+    <?php endforeach; ?>
+    <?php foreach ($projects as $proj): ?>
+    <url><loc><?= htmlspecialchars($base) ?>/detail_projek.php?id=<?= htmlspecialchars($proj['id']) ?></loc><lastmod><?= htmlspecialchars($proj['date'] ?? $today) ?></lastmod><priority>0.5</priority></url>
+    <?php endforeach; ?>
+</urlset>

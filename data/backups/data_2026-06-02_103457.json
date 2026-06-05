@@ -1,0 +1,152 @@
+{
+    "site_settings": {
+        "hero_title": "Mahasiswa SI & Tech Enthusiast",
+        "hero_desc": "Selamat datang di blog pribadiku. Di sini saya berbagi tentang project, tutorial pemrograman, pengalaman upgrade laptop, dan catatan perjalanan belajarku di dunia IT.",
+        "hero_img": "https:\/\/picsum.photos\/seed\/indratech\/400\/400",
+        "about_bio": "Halo All! Gwe Indra Syah Putra. Gwe mahasiswa Sistem Informasi di Kampus Bina Sarana Informatika (BSI) Cabang Kaliabang. Gwe adalah tipikal orang yang menyukai hal-hal baru, terutama bagian komputer ataupun laptop. Gwe suka ngoprek dan berbagi apa yang gwe pelajari.",
+        "skills": [
+            "Laravel",
+            "PHP",
+            "HTML\/CSS",
+            "Hardware"
+        ],
+        "contact_title": "Hubungi Saya",
+        "contact_desc": "Punya pertanyaan seputar tutorial, mau tanya tips laptop, atau sekadar ingin menyapa? Jangan ragu untuk menghubungi saya.",
+        "contact_email": "indra@example.com",
+        "contact_insta": "@ineffable.ndr_",
+        "contact_github": "@indra-github",
+        "categories": [
+            "Komputer",
+            "Programming",
+            "Jaringan"
+        ],
+        "cv_link": "",
+        "faq": [
+            {
+                "q": "Berapa lama waktu respon?",
+                "a": "Biasanya dalam 1-2 hari kerja. Saya akan membalas ke email yang kamu cantumkan."
+            },
+            {
+                "q": "Apakah saya bisa request topik tutorial?",
+                "a": "Tentu! Tulis saja topik yang kamu ingin bahas di form pesan, dan saya akan pertimbangkan untuk artikel selanjutnya."
+            },
+            {
+                "q": "Bisakah saya berkolaborasi dalam projek?",
+                "a": "Pastinya! Saya terbuka untuk kolaborasi. Mention aja projek yang kamu minati di pesan."
+            }
+        ],
+        "timeline": [
+            {
+                "type": "education",
+                "title": "Sistem Informasi",
+                "organization": "Bina Sarana Informatika (BSI) Kaliabang",
+                "year": "2023 - Sekarang",
+                "desc": "Kuliah S1 Sistem Informasi sambil aktif ngoprek dan belajar web development."
+            },
+            {
+                "type": "education",
+                "title": "SMA \/ Sederajat",
+                "organization": "SMA Negeri 1 Bekasi",
+                "year": "2020 - 2023",
+                "desc": "Mulai tertarik dengan dunia teknologi dan programming."
+            },
+            {
+                "type": "experience",
+                "title": "Tech Enthusiast & Content Creator",
+                "organization": "Freelance \/ Pribadi",
+                "year": "2023 - Sekarang",
+                "desc": "Membagikan pengalaman upgrade laptop, tutorial, dan review teknologi."
+            }
+        ],
+        "project_categories": [
+            "React Js",
+            "PHP Native",
+            "Laravel",
+            "Jaringan"
+        ],
+        "gallery": [],
+        "tech_skills": [
+            "Laravel",
+            "React JS",
+            "PHP Native"
+        ]
+    },
+    "projects": [
+        {
+            "id": "6a1dcab3d7f85",
+            "title": "Ppppp",
+            "desc": "1234656",
+            "img": "https:\/\/picsum.photos\/seed\/coding\/400\/250",
+            "tech": "Laravel, React JS",
+            "category": "Laravel",
+            "published": "1",
+            "link": "",
+            "status": "In Progress",
+            "date": "2026-06-02"
+        },
+        {
+            "id": "6a1dc8dc581a2",
+            "title": "Projek Contoh",
+            "desc": "12345",
+            "img": "https:\/\/picsum.photos\/seed\/cms\/600\/400",
+            "tech": "Laravel, PHP Native",
+            "category": "Laravel",
+            "link": "",
+            "status": "Planning",
+            "date": "2026-06-02",
+            "published": "1"
+        },
+        {
+            "id": "1",
+            "title": "Blog CMS System",
+            "desc": "Sistem manajemen konten blog pribadi berbasis PHP dan JSON tanpa database MySQL.",
+            "img": "https:\/\/picsum.photos\/seed\/cms\/600\/400",
+            "tech": "Laravel, React JS",
+            "link": "https:\/\/github.com\/indra\/blog-cms",
+            "status": "In Progress",
+            "date": "2026-06-02",
+            "category": "React Js",
+            "published": "1"
+        }
+    ],
+    "articles": [
+        {
+            "id": "6a1dd322a3ed6",
+            "title": "Test",
+            "content": "<p>Kali ini gwe tertarik sharing cara upload project Laravel ke hosting dengan FastPanel. Mulai dari setting env sampai migrasi DB.<\/p>",
+            "img": "uploads\/img_6a1dd5aa705b7.jpg",
+            "date": "2026-06-01",
+            "category": "Komputer",
+            "published": "1"
+        },
+        {
+            "id": "1",
+            "title": "Deploy Laravel di FastPanel",
+            "content": "<p>Kali ini gwe tertarik sharing cara upload project Laravel ke hosting dengan FastPanel. Mulai dari setting env sampai migrasi DB.<\/p>",
+            "date": "2023-10-25",
+            "img": "uploads\/img_6a1dd1b8d85ee.jpeg",
+            "category": "Komputer",
+            "views": 5,
+            "published": "1"
+        },
+        {
+            "id": "2",
+            "title": "Rahasia Laptop Lawas Ngebut",
+            "content": "Pengalaman upgrade Lenovo Thinkpad L430. Gwe ganti RAM jadi 16GB dan pasang SSD.",
+            "date": "2023-10-20",
+            "img": "https:\/\/picsum.photos\/seed\/laptop\/400\/250",
+            "category": "Komputer",
+            "views": 2
+        }
+    ],
+    "messages": [
+        {
+            "id": "6a1dafd9dfa7d",
+            "nama": "Budi",
+            "email": "myz@gmail.com",
+            "pesan": "111111",
+            "tanggal": "2026-06-01 16:14:17",
+            "is_read": true
+        }
+    ]
+}
