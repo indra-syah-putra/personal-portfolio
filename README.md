@@ -1,78 +1,78 @@
 # Myportofolio
 
-Personal portfolio & blog website built with **PHP Native** and **JSON-based storage**.
+Website portofolio dan blog pribadi, dibikin pakai **PHP Native** doang tanpa framework — datanya pake JSON, bukan MySQL.
 
 ## Fitur
 
-- **Portfolio** — Projects, articles, skills, tech stack, gallery, timeline, FAQ
-- **Blog** — Artikel dengan kategori, pagination, RSS feed, sitemap
-- **CMS Admin** — Panel admin lengkap untuk mengelola semua konten
-  - Kelola Projek, Artikel, Skills, Gallery, Timeline, FAQ
+- **Portofolio** — Projek, artikel, skill, tech stack, galeri, timeline, FAQ
+- **Blog** — Ada kategori, pagination, RSS feed, sitemap
+- **Admin CMS** — Biar gampang ngatur konten dari panel
+  - Projek, Artikel, Skills, Gallery, Timeline, FAQ
   - Edit halaman Beranda, Tentang, Kontak
   - Upload gambar
-  - Pesan dari pengunjung
-- **Dark Mode** — Toggle tema gelap/terang
-- **Responsive** — Mobile-friendly dengan sidebar navigasi
+  - Lihat pesan dari pengunjung
+- **Dark Mode** — Bisa toggle gelap/terang
+- **Responsive** — Layar HP juga oke
 - **SEO** — Meta tags, Open Graph, RSS, Sitemap
 
-## Persyaratan
+## Yang Dibutuhin
 
 - PHP 7.4+
-- Web Server (Apache/Laragon/XAMPP)
-- Ekstensi PHP: `json`, `fileinfo`, `gd` (untuk upload gambar)
+- Web Server (Laragon / XAMPP / Apache)
+- Ekstensi PHP: `json`, `fileinfo`, `gd` (buat upload gambar)
 
-## Instalasi
+## Cara Pasang
 
-1. Clone atau download project ke folder web server
-2. Buka di browser — langsung berjalan (tanpa database)
-3. Akses admin panel: `/login.php`
-4. Login:
+1. Clone atau download project, taruh di folder web server
+2. Buka aja di browser — langsung jalan, gausah setup database
+3. Masuk admin panel: `/login.php`
+4. Login pake ini:
 
    | Username | Password |
    |----------|----------|
    | `admin`  | `admin123` |
 
-5. Tambahkan konten pertama kamu dari panel admin
+5. Mulai tambahin konten dari panel admin
 
-> Ubah username/password di `config.php` dan regenerate bcrypt hash.
+> Kalo mau ganti username/password, edit aja di `config.php` terus generate ulang bcrypt hash-nya.
 
 ## Struktur Folder
 
 ```
-├── assets/          # CSS, JS, images
-├── components/      # Reusable PHP components
-├── data/            # JSON data files (database)
+├── assets/          # CSS, JS, gambar
+├── components/      # Komponen PHP yang dipakai ulang
+├── data/            # File JSON (nyimpen data)
 │   ├── data.json
 │   └── messages.json
-├── includes/        # Core includes (functions, header, footer)
-├── process/         # Form handlers (admin CRUD, contact)
-├── uploads/         # Uploaded images
-├── admin.php        # Admin CMS panel
-├── index.php        # Homepage
-├── projek.php       # Projects page
-├── artikel.php      # Articles page
-├── detail_*.php     # Detail pages
-├── kontak.php       # Contact page
-├── tentang.php      # About page
-├── login.php        # Admin login
-├── config.php       # Configuration & credentials
+├── includes/        # Fungsi-fungsi inti (header, footer, dll)
+├── process/         # Penanganan form (admin, kontak)
+├── uploads/         # Gambar hasil upload
+├── admin.php        # Panel admin CMS
+├── index.php        # Halaman depan
+├── projek.php       # Halaman projek
+├── artikel.php      # Halaman artikel
+├── detail_*.php     # Halaman detail
+├── kontak.php       # Halaman kontak
+├── tentang.php      # Halaman tentang
+├── login.php        # Halaman login admin
+├── config.php       # Konfigurasi & kredensial
 ├── rss.php          # RSS feed
 └── sitemap.xml      # Sitemap
 ```
 
 ## Tech Stack
 
-- **Backend:** PHP Native (no framework)
-- **Database:** JSON file (no MySQL)
-- **Frontend:** Vanilla CSS + JavaScript
-- **Editor:** Trumbowyg (WYSIWYG untuk artikel/projek)
-- **Icons:** Feather Icons via inline SVG
+- **Backend:** PHP Native (tanpa framework)
+- **Database:** JSON file (gausah MySQL)
+- **Frontend:** CSS + JavaScript murni
+- **Editor:** Trumbowyg (WYSIWYG buat nulis artikel/projek)
+- **Icons:** Feather Icons — pake inline SVG
 
 ## Catatan
 
-- Data disimpan di file JSON — tidak perlu database MySQL
-- Untuk production, disarankan menambahkan proteksi folder `/data` dan `/uploads` di `.htaccess`
-- Session timeout: 30 menit (konfigurasi di `config.php`)
+- Data cukup disimpen di JSON, jadi ribetnya MySQL gausah
+- Kalo mau dipasang di production, saran saya kasih proteksi folder `/data` sama `/uploads` di `.htaccess`
+- Session login: 30 menit abis (atur di `config.php`)
 
 ## Lisensi
 
