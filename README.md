@@ -71,7 +71,6 @@ Website portofolio dan blog pribadi, dibikin pakai **PHP Native** doang tanpa fr
 ## Catatan
 
 - Data cukup disimpen di JSON, jadi ribetnya MySQL gausah
-- Kalo mau dipasang di production, saran saya kasih proteksi folder `/data` sama `/uploads` di `.htaccess`
 - Session login: 30 menit abis (atur di `config.php`)
 
 ## Lisensi
